@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189F22CB1E9F509900124BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F22CA1E9F509900124BD5 /* AppDelegate.swift */; };
+		189F22CD1E9F509900124BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F22CC1E9F509900124BD5 /* ViewController.swift */; };
+		189F22D01E9F509900124BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F22CE1E9F509900124BD5 /* Main.storyboard */; };
+		189F22D21E9F509900124BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189F22D11E9F509900124BD5 /* Assets.xcassets */; };
+		189F22D51E9F509900124BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F22D31E9F509900124BD5 /* LaunchScreen.storyboard */; };
+		189F22E01E9F509900124BD5 /* UMshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F22DF1E9F509900124BD5 /* UMshareTests.swift */; };
+		189F22EB1E9F509900124BD5 /* UMshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F22EA1E9F509900124BD5 /* UMshareUITests.swift */; };
+		189F233A1E9F691100124BD5 /* 充值余额@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F23381E9F691100124BD5 /* 充值余额@2x.png */; };
+		189F233B1E9F691100124BD5 /* 充值余额@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189F23391E9F691100124BD5 /* 充值余额@3x.png */; };
+		C054368E54E538C44C4A5778 /* Pods_UMshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9086D1C396C5E030DC8F97CF /* Pods_UMshare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189F22DC1E9F509900124BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189F22BF1E9F509900124BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189F22C61E9F509900124BD5;
+			remoteInfo = UMshare;
+		};
+		189F22E71E9F509900124BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189F22BF1E9F509900124BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189F22C61E9F509900124BD5;
+			remoteInfo = UMshare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189F22C71E9F509900124BD5 /* UMshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189F22CA1E9F509900124BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189F22CC1E9F509900124BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189F22CF1E9F509900124BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189F22D11E9F509900124BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189F22D41E9F509900124BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189F22D61E9F509900124BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189F22DB1E9F509900124BD5 /* UMshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189F22DF1E9F509900124BD5 /* UMshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMshareTests.swift; sourceTree = "<group>"; };
+		189F22E11E9F509900124BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189F22E61E9F509900124BD5 /* UMshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189F22EA1E9F509900124BD5 /* UMshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMshareUITests.swift; sourceTree = "<group>"; };
+		189F22EC1E9F509900124BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189F23371E9F55D800124BD5 /* UMshare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMshare-Bridging-Header.h"; sourceTree = "<group>"; };
+		189F23381E9F691100124BD5 /* 充值余额@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "充值余额@2x.png"; sourceTree = "<group>"; };
+		189F23391E9F691100124BD5 /* 充值余额@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "充值余额@3x.png"; sourceTree = "<group>"; };
+		56F20ACC7378FA44A12970AC /* Pods-UMshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMshare.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMshare/Pods-UMshare.release.xcconfig"; sourceTree = "<group>"; };
+		9086D1C396C5E030DC8F97CF /* Pods_UMshare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMshare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B554B17737B79D3071B50C /* Pods-UMshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMshare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMshare/Pods-UMshare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189F22C41E9F509900124BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C054368E54E538C44C4A5778 /* Pods_UMshare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189F22D81E9F509900124BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189F22E31E9F509900124BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189F22BE1E9F509900124BD5 = {
+			isa = PBXGroup;
+			children = (
+				189F22C91E9F509900124BD5 /* UMshare */,
+				189F22DE1E9F509900124BD5 /* UMshareTests */,
+				189F22E91E9F509900124BD5 /* UMshareUITests */,
+				189F22C81E9F509900124BD5 /* Products */,
+				22F401309655115A5F67F41E /* Pods */,
+				E991900B2A3CE26D79E34847 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189F22C81E9F509900124BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189F22C71E9F509900124BD5 /* UMshare.app */,
+				189F22DB1E9F509900124BD5 /* UMshareTests.xctest */,
+				189F22E61E9F509900124BD5 /* UMshareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189F22C91E9F509900124BD5 /* UMshare */ = {
+			isa = PBXGroup;
+			children = (
+				189F23381E9F691100124BD5 /* 充值余额@2x.png */,
+				189F23391E9F691100124BD5 /* 充值余额@3x.png */,
+				189F22CA1E9F509900124BD5 /* AppDelegate.swift */,
+				189F22CC1E9F509900124BD5 /* ViewController.swift */,
+				189F22CE1E9F509900124BD5 /* Main.storyboard */,
+				189F22D11E9F509900124BD5 /* Assets.xcassets */,
+				189F22D31E9F509900124BD5 /* LaunchScreen.storyboard */,
+				189F22D61E9F509900124BD5 /* Info.plist */,
+				189F23371E9F55D800124BD5 /* UMshare-Bridging-Header.h */,
+			);
+			path = UMshare;
+			sourceTree = "<group>";
+		};
+		189F22DE1E9F509900124BD5 /* UMshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				189F22DF1E9F509900124BD5 /* UMshareTests.swift */,
+				189F22E11E9F509900124BD5 /* Info.plist */,
+			);
+			path = UMshareTests;
+			sourceTree = "<group>";
+		};
+		189F22E91E9F509900124BD5 /* UMshareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189F22EA1E9F509900124BD5 /* UMshareUITests.swift */,
+				189F22EC1E9F509900124BD5 /* Info.plist */,
+			);
+			path = UMshareUITests;
+			sourceTree = "<group>";
+		};
+		22F401309655115A5F67F41E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8B554B17737B79D3071B50C /* Pods-UMshare.debug.xcconfig */,
+				56F20ACC7378FA44A12970AC /* Pods-UMshare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E991900B2A3CE26D79E34847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9086D1C396C5E030DC8F97CF /* Pods_UMshare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189F22C61E9F509900124BD5 /* UMshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189F22EF1E9F509900124BD5 /* Build configuration list for PBXNativeTarget "UMshare" */;
+			buildPhases = (
+				B878390BF4F9B0B0F1B6C09A /* [CP] Check Pods Manifest.lock */,
+				189F22C31E9F509900124BD5 /* Sources */,
+				189F22C41E9F509900124BD5 /* Frameworks */,
+				189F22C51E9F509900124BD5 /* Resources */,
+				50AE55885B32A7DCE007A95B /* [CP] Embed Pods Frameworks */,
+				540493E67A7B3002A002CACB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMshare;
+			productName = UMshare;
+			productReference = 189F22C71E9F509900124BD5 /* UMshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189F22DA1E9F509900124BD5 /* UMshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189F22F21E9F509900124BD5 /* Build configuration list for PBXNativeTarget "UMshareTests" */;
+			buildPhases = (
+				189F22D71E9F509900124BD5 /* Sources */,
+				189F22D81E9F509900124BD5 /* Frameworks */,
+				189F22D91E9F509900124BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189F22DD1E9F509900124BD5 /* PBXTargetDependency */,
+			);
+			name = UMshareTests;
+			productName = UMshareTests;
+			productReference = 189F22DB1E9F509900124BD5 /* UMshareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189F22E51E9F509900124BD5 /* UMshareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189F22F51E9F509900124BD5 /* Build configuration list for PBXNativeTarget "UMshareUITests" */;
+			buildPhases = (
+				189F22E21E9F509900124BD5 /* Sources */,
+				189F22E31E9F509900124BD5 /* Frameworks */,
+				189F22E41E9F509900124BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189F22E81E9F509900124BD5 /* PBXTargetDependency */,
+			);
+			name = UMshareUITests;
+			productName = UMshareUITests;
+			productReference = 189F22E61E9F509900124BD5 /* UMshareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189F22BF1E9F509900124BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					189F22C61E9F509900124BD5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6XJ23F2ZXN;
+						ProvisioningStyle = Automatic;
+					};
+					189F22DA1E9F509900124BD5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6XJ23F2ZXN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189F22C61E9F509900124BD5;
+					};
+					189F22E51E9F509900124BD5 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6XJ23F2ZXN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189F22C61E9F509900124BD5;
+					};
+				};
+			};
+			buildConfigurationList = 189F22C21E9F509900124BD5 /* Build configuration list for PBXProject "UMshare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189F22BE1E9F509900124BD5;
+			productRefGroup = 189F22C81E9F509900124BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189F22C61E9F509900124BD5 /* UMshare */,
+				189F22DA1E9F509900124BD5 /* UMshareTests */,
+				189F22E51E9F509900124BD5 /* UMshareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189F22C51E9F509900124BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189F22D51E9F509900124BD5 /* LaunchScreen.storyboard in Resources */,
+				189F22D21E9F509900124BD5 /* Assets.xcassets in Resources */,
+				189F22D01E9F509900124BD5 /* Main.storyboard in Resources */,
+				189F233B1E9F691100124BD5 /* 充值余额@3x.png in Resources */,
+				189F233A1E9F691100124BD5 /* 充值余额@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189F22D91E9F509900124BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189F22E41E9F509900124BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50AE55885B32A7DCE007A95B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMshare/Pods-UMshare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		540493E67A7B3002A002CACB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMshare/Pods-UMshare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B878390BF4F9B0B0F1B6C09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189F22C31E9F509900124BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189F22CD1E9F509900124BD5 /* ViewController.swift in Sources */,
+				189F22CB1E9F509900124BD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189F22D71E9F509900124BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189F22E01E9F509900124BD5 /* UMshareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189F22E21E9F509900124BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189F22EB1E9F509900124BD5 /* UMshareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189F22DD1E9F509900124BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189F22C61E9F509900124BD5 /* UMshare */;
+			targetProxy = 189F22DC1E9F509900124BD5 /* PBXContainerItemProxy */;
+		};
+		189F22E81E9F509900124BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189F22C61E9F509900124BD5 /* UMshare */;
+			targetProxy = 189F22E71E9F509900124BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189F22CE1E9F509900124BD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189F22CF1E9F509900124BD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189F22D31E9F509900124BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189F22D41E9F509900124BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189F22ED1E9F509900124BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189F22EE1E9F509900124BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189F22F01E9F509900124BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B554B17737B79D3071B50C /* Pods-UMshare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XJ23F2ZXN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UMshare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccclubs.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/UMshare/UMshare-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		189F22F11E9F509900124BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F20ACC7378FA44A12970AC /* Pods-UMshare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XJ23F2ZXN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = UMshare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccclubs.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/UMshare/UMshare-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		189F22F31E9F509900124BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6XJ23F2ZXN;
+				INFOPLIST_FILE = UMshareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccclubs.UMshareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMshare.app/UMshare";
+			};
+			name = Debug;
+		};
+		189F22F41E9F509900124BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6XJ23F2ZXN;
+				INFOPLIST_FILE = UMshareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccclubs.UMshareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMshare.app/UMshare";
+			};
+			name = Release;
+		};
+		189F22F61E9F509900124BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6XJ23F2ZXN;
+				INFOPLIST_FILE = UMshareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccclubs.UMshareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UMshare;
+			};
+			name = Debug;
+		};
+		189F22F71E9F509900124BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6XJ23F2ZXN;
+				INFOPLIST_FILE = UMshareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccclubs.UMshareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UMshare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189F22C21E9F509900124BD5 /* Build configuration list for PBXProject "UMshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F22ED1E9F509900124BD5 /* Debug */,
+				189F22EE1E9F509900124BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189F22EF1E9F509900124BD5 /* Build configuration list for PBXNativeTarget "UMshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F22F01E9F509900124BD5 /* Debug */,
+				189F22F11E9F509900124BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189F22F21E9F509900124BD5 /* Build configuration list for PBXNativeTarget "UMshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F22F31E9F509900124BD5 /* Debug */,
+				189F22F41E9F509900124BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189F22F51E9F509900124BD5 /* Build configuration list for PBXNativeTarget "UMshareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189F22F61E9F509900124BD5 /* Debug */,
+				189F22F71E9F509900124BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189F22BF1E9F509900124BD5 /* Project object */;
+}
